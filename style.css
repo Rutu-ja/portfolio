@@ -1,0 +1,225 @@
+@font-face {
+    font-family:memphis river ;
+    src: url(fonts/Memphis\ River.otf);
+}
+body{
+    background-color: #ffffff;
+}
+.navbar-nav a:hover{
+ color: #fca61f !important;
+}
+.contact-us-btn{
+    margin: 25px;
+}
+.contact-us-btn:hover{
+background-color: transparent;
+color: #fca61f;
+border-color:#fca61f
+}
+.navbar-brand{
+    margin-left: 5%;
+    font-size:x-large;
+}
+.nav-item{
+    padding: 25px;
+}
+#navbarSupportedContent{
+    margin-right: 6%;
+}
+.d-flex{
+    padding: 10px;
+    margin: 10px;
+}
+.p-2 h1{
+    padding: 10px;
+    margin: 10px;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p-2 h2{
+    padding:10px;
+    margin: 10px;
+color: #fca61f;
+font-family:'memphis river', sans-serif;
+font-size: 50px;
+text-shadow: 1px 1px  0px black;
+
+}
+.p-2 p{
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p-2 img{
+    padding: 10px;
+    margin: 10px;
+    margin-right: 50px;
+    width: 400px;
+    height: 400px;
+}
+.btn-se{
+    padding: 10px;
+    margin: 10px;
+    background-color:#fca61f;
+    border: none;
+}
+.btn-se:hover{
+    box-shadow:1px 1px 55px 1px #fca61f;
+    transition: 1s;
+    background-color: #fca61f;
+}
+.icon1{
+    box-shadow:1px 1px 55px 1px #84cceb;
+    background-color:#84cceb;
+    border-radius:50px;;
+    color:black;
+    position: absolute;
+    margin-top: 60px;
+    margin-left:30px;
+    font-size: 45px;
+}
+.icon2{
+    box-shadow:1px 1px 55px 1px #F4CCEF;
+    background-color:#F4CCEF;
+    border-radius: 50px;
+    color:black;
+    position: absolute;
+    margin-top: 250px;
+    margin-left:380px;
+    font-size: 45px;
+}
+.icon3{
+    box-shadow:1px 1px 55px 1px rgba(226,190,241,255);
+    color: black;
+    background-color:rgba(226,190,241,255);
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left:320px;
+    font-size: 40px;   
+}
+
+.boxesContainer h1 {
+    background: #333; 
+    color: #fff; 
+    text-align: center; 
+    margin:20px; 
+    padding:20px; 
+}
+.cardBox {
+    float: left;
+    font-size: 1.2em; 
+    margin: 1% 0 0 1%; 
+    perspective: 800px; 
+    transition: all 0.3s ease 0s; 
+    width: 23.7%;
+} 
+.cardBox:hover .card { 
+    transform: rotateY(180deg);
+    box-shadow:1px 1px 55px 1px rgba(226,190,241,255);
+}
+.card {        
+    background:#ffffff;
+    height: 200px;
+    transform-style: preserve-3d; 
+    transition: transform 0.4s ease 0s;
+    width: 100%;
+    cursor:grab;
+     -webkit-animation: giro is 1; animation: giro 1s 1; 
+    }
+.card p {
+        margin-bottom: 1.8em;
+} 
+.card .front,.card .back {
+            backface-visibility: hidden; 
+            box-sizing: border-box;
+            font-size: 1.2em; 
+            position: absolute;
+            /* color: white;  */
+            display: block;
+            height: 100%; 
+            padding: 0.8em;
+            text-align: center; 
+            width: 100%;
+}        
+.card .front strong {
+             background: #fff;
+             border-radius: 100%; 
+             line-height: 30px;
+            padding: 0 7px 4px 6px;
+            color: #222; 
+            font-size : 1.5em;  
+} 
+.card .back { 
+    transform: rotateY(180deg);
+ }
+.card .back a {
+    padding: 0.3em 0.5em;
+    color: #fff; 
+    text-decoration: none;
+    background: #333;
+    border-radius: 1px; 
+    font-size: 0.9em; 
+    transition: all 0.25 ease 0s;
+}
+.card .back a:hover {
+     background:#fca61f;
+     color: #333; 
+     text-shadow: 0 1px #333; 
+    }
+
+/* .cardBox:nth-child(1) .card .back { 
+    background: cornflowerblue;
+
+} 
+.cardBox:nth-child(2) .card .back {
+    background: orange;
+}
+.cardBox:nth-child(3) .card .back { 
+    background: yellowgreen;
+
+}
+.cardBox:nth-child(4) .card .back {
+     background: tomato;
+    } */
+.cardBox:nth-child(2) .card {
+    -webkit-animation: giro 1.5s 1;
+    animation: giro 1.5s 1;
+}
+.cardBox:nth-child(3) .card { 
+    -webkit-animation: giro 25 1; 
+    animation: giro 25 1;
+}
+.cardBox:nth-child(4) .card { 
+    -webkit-animation: giro 2.5s 1;
+    animation: giro 2.55 1;
+}
+@-webkit-keyframes giro {
+
+    from { transform: rotateY(180deg);
+    
+    }
+    
+    to { transform: rotateY(180deg);}
+}
+@keyframes giro {
+
+    from {transform: rotateY(180deg);
+    
+    }
+    
+    to { transform: rotateY(180deg); }}
+.icon4{
+    color:black;
+    font-size: 80px;  
+    margin: 10px;
+    padding: 10px; 
+}
+#footer{
+   background-color: #fca61f!important;
+}
+.me-4{
+    color: black;
+}
+/* .icon5 {
+} */
