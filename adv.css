@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 .ps-timeline-sec {
   position: relative;
-  background: #fff;
+  background: #fff; 
 }
 .ps-timeline-sec .container {
   position: relative;
@@ -100,7 +100,7 @@
   border-radius: 100%;
   position: absolute;
   left: 8px;
-  top: 49.5%;
+  top: -185.5%;
 }
 .ps-timeline-sec .container ol:after {
   background: #348e80;
@@ -110,10 +110,10 @@
   border-radius: 100%;
   position: absolute;
   right: 8px;
-  top: 49.5%;
+  top: -185.5%;
 }
 .ps-timeline-sec .container ol.ps-timeline {
-  margin: 390px 0;
+  margin: 210px 0;
   padding: 0;
   border-top: 2px solid #348e80;
   list-style: none;
